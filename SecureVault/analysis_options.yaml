@@ -1,0 +1,9 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    avoid_print: true
+    cancel_subscriptions: true
+    close_sinks: true
+    unawaited_futures: true
+

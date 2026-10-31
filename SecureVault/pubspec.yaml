@@ -1,0 +1,31 @@
+name: secure_vault
+description: Offline-first Flutter password manager with encrypted local storage.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cryptography: ^2.7.0
+  cryptography_flutter: ^2.3.4
+  crypto: ^3.0.6
+  flutter_secure_storage: ^11.2.0
+  path_provider: ^2.1.6
+  screen_protector: ^1.5.3
+  qr_flutter: ^4.1.0
+  file_picker: ^13.3.0
+  share_plus: ^13.3.1
+  cross_file: ^0.3.5+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^5.1.1
+  test: ^1.25.8
+
+flutter:
+  uses-material-design: true
+
